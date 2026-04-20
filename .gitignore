@@ -1,0 +1,30 @@
+# Configuration and Secrets
+config/.env
+config/*.pem
+# config/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Data Files (Avoid committing large datasets or outputs)
+*.csv
+*.xlsx
+sessions/fp/output/
+sessions/logo/household_viewership_memberwise_output/
+for-panel/for-panel-output/
+cleaned/
+
+# OS/IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Assistant Metadata
+.gemini/
